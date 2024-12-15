@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('/imagens/fundo.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Para a imagem cobrir toda a tela */
+    background-position: center; /* Alinha a imagem ao centro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner{
+    height: 100%;
+    margin: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    color: white;
+}
+.tela-inicial{
+    text-align: center; 
+    width: 100%; 
+}
+ .bt-inicial{
+    margin-top: 10px;
+    background-color: #5031b5;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+ }
+ .bt-inicial:hover {
+    background-color: #4f7453;  
+}
+
+ input[type="color"]{
+    margin: 5px 0;
+    padding: 4px;
+   
+ }
