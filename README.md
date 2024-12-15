@@ -1,4 +1,4 @@
-# Projeto - Pizzaria Delicia 🚀
+# Projeto - Corrida de Blocos 🚀
 
 Este é um projeto de curso Full Stack, usando HTML, CSS e JS, ainda é uma atividade dos primeiros módulos.
 
