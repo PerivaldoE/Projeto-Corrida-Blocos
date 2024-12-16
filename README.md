@@ -12,7 +12,7 @@ Este é um projeto de curso Full Stack, usando HTML, CSS e JS, ainda é uma ativ
 | **Membro**                           |
 |--------------------------------------|
 | **Perivaldo Eic Costa da Silva**     | 
-| **Nome 2**                           | 
+| **Leonardo Nascimento Julio**                           | 
 | **nome 3**                           | 
 | **nome 4**                           | 
 | **nome 5**                           | 
