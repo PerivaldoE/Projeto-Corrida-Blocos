@@ -6,21 +6,46 @@
     <title>Corrida de blocos</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
-    <div class="conteiner">
-    <div class="tela-inicial">
-        <h1>Corrida de blocos</h1>
-        <h2>Escolha as cores </h2>
+<body> 
+    <center>
+    <div class="all"> 
+        <header>
+            <h1>Corrida de blocos</h1>
+        </header>
+    
+        <div id="main">
+            <h2>Escolha as cores</h2>  
+            <div>
+                <label for="Cor1">Cor do jogador 1:</label>
+                <input type="color" id="cor1" value="#ff0000" class="cor">
+            </div>
+            <br>
+            <div>
+                <label for="Cor2">Cor do jogador 2:</label>
+                <input type="color" id="cor2" value="#0000ff" class="cor">
+            </div>
+            <br>
+            <div>
+                <label for="difficulty">Selecionar dificuldade:</label>
+                <select id="difficulty">
+                <option value="easy">Fácil</option>
+                <option value="medium">Médio</option>
+                <option value="hard">Difícil</option>
+            </select>
+            </div>
+            <br>    
+
+            <button class="bt-inicial" onclick="startGame()">Iniciar jogo</button>
+        </div>
+    
+        <div id="cenario" class="hide">
+            <div id="player1"></div>
+            <div id="player2"></div>
+        </div>
+
+        <button id="btn-xrl8" class="hide">Acelerar</button>
     </div>
-    <div>
-        <label for="Cor1">Cor do jogador 1</label>
-        <input type="color" id="cor1" value="#ff0000">
-    </div>
-    <div>
-        <label for="Cor2">Cor do jogador 2</label>
-        <input type="color" id="cor2" value="#0000ff">
-    </div>
-    <button class="bt-inicial">Iniciar jogo</button>
-    </div>
+    </center>
+    <script src="js/script.js"></script>
 </body>
 </html>
