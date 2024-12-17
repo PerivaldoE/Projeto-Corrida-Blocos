@@ -57,7 +57,7 @@ header{
 }
 
 label {
-    font: 14pt normal;
+    font: 16pt normal;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -84,19 +84,19 @@ select {
 }
 
 #player1 {
-    height: 50px;
-    width: 50px;
-    border: 2px solid #000000;
+    height: 60px;
+    width: 60px;
     position: absolute;
     bottom: 65%;
+    left: 1%;
 }
 
 #player2 {
-    height: 50px;
-    width: 50px;
-    border: 2px solid #000000;
+    height: 60px;
+    width: 60px;
     position: absolute;
     top: 65%;
+    left: 1%;;
 }
 
 #btn-xrl8 {
