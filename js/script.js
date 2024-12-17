@@ -46,10 +46,20 @@ function startGame() {
         if (p2Pos >= 90) {
             clearInterval(verificador);
             vencedor = 'Jogador 2';
+            alert(vencedor + " ganhou!");
         }
     }, 100)
 
     acelerar.addEventListener('click', () => {
         //Código para acelerar o player1
+        p1Pos += 2;
+        p1.style.left = p1Pos + '%';
+
+        // mesma verificação de vitória
+        if (p1Pos >= 90) {
+            clearInterval(verificador);
+            vencedor = 'Jogador 1';
+            alert(vencedor + " ganhou!");
+        }
     })
 }
