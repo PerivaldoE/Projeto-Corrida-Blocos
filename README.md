@@ -15,7 +15,7 @@ Este é um projeto de curso Full Stack, usando HTML, CSS e JS, ainda é uma ativ
 | **Leonardo Nascimento Julio**        | 
 | **Diogo Miguel**                     | 
 | **Pedro Henrique Maciel de Sousa**   | 
-| **nome 5**                           | 
+| **João Emanuel de Andrade Carneiro**                           | 
 
 ---
 
